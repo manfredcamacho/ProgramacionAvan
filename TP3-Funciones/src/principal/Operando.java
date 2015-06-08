@@ -1,6 +1,6 @@
 package principal;
 
-public class Operando {
+public class Operando extends Operador {
 
 	private double valor;
 	private char variable = ' ';
@@ -14,7 +14,7 @@ public class Operando {
 			valor = Double.parseDouble(val);
 	}
 	
-	public double valor(){
+	public double operar(){
 		return valor;
 	}
 	
