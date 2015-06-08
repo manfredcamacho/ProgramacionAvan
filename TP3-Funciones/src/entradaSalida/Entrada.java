@@ -10,7 +10,7 @@ public class Entrada {
 		try {
 			fp = new File(ruta);
 			fr = new FileReader(fp);
-			br = new BufferedReader(br);
+			br = new BufferedReader(fr);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
